@@ -1,11 +1,3 @@
-//http://arduinolearning.com/code/arduino-guva-s12sd-uv-sensor.php#
-//https://dronebotworkshop.com/arduino-uv-index-meter/
-//https://github.com/adafruit/Adafruit_SI1145_Library/blob/master/Adafruit_SI1145.h
-//https://randomnerdtutorials.com/esp32-i2c-communication-arduino-ide/
-//http://esp8266.fancon.cz/sensors/pressure-at-sea-level-formula.html
-//http://esp8266.fancon.cz/esp8266-web-barometer-arduino/esp8266-bmp280-barometer-thermometer.html
-// https://earth.google.com/web/search/gartocharn/@56.05423888,-4.49723577,31.45913726a,35.26343397d,35y,-0h,0t,0r/data=CigiJgokCcUQ1n3yADVAEQ5uWt05_zTAGbbCAcFsiyXAIb25fh41alzA
-
 //SCL to D1
 //SDA to D2
 
