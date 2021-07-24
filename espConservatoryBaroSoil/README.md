@@ -1,4 +1,4 @@
-This is an esp widfi device I havbe in my conservatory.
+This is an esp wifi device I havbe in my conservatory.
 
 It measures the air temperature, air pressure, and the soil moisture of an indoor plant.
 It then publishes that data to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
