@@ -4,7 +4,8 @@ It measures the air temperature, air pressure, and the soil moisture of an indoo
 It then publishes that data to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
 
 The device has a simple webpage that you can view to see the status of the device and its sensors:
-![image](https://user-images.githubusercontent.com/31904545/127485530-c743dbba-e573-409d-80c0-ecfb0ede6060.png)
+![image](https://user-images.githubusercontent.com/31904545/127522128-4f53a24b-cf00-492c-9ca4-d24407d23b91.png)
+
 
 
 Of course Home Assistant will display the data in a much cleaner format:
