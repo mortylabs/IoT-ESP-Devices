@@ -1,10 +1,13 @@
-This is an esp wifi device I havbe in my conservatory.
+This esp8266 lives indoors, in a conservatory. 
 
-It measures the air temperature, air pressure, and the soil moisture of an indoor plant.
-It then publishes that data to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
+It measures the air temperature, atmospheric pressure, and soil moisture of an indoor plant.
+It then publishes sensor data to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
 
 The device has a simple webpage that you can view to see the status of the device and its sensors:
-![image](https://user-images.githubusercontent.com/31904545/127522128-4f53a24b-cf00-492c-9ca4-d24407d23b91.png)
+![image](https://user-images.githubusercontent.com/31904545/128088460-5d00357c-ca6f-425b-b76e-0fba93cebd14.png)
+
+It also has a setup page so you can reconfigure the WiFi and MQTT settings:
+![image](https://user-images.githubusercontent.com/31904545/128088647-1e573e9c-77d1-4a0b-9fd5-87567a74625b.png)
 
 
 
