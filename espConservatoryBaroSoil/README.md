@@ -13,8 +13,16 @@ It also has a setup page so you can reconfigure the WiFi and MQTT settings:
 
 Of course Home Assistant will display the data in a much cleaner format:
 
-6![image](https://user-images.githubusercontent.com/31904545/126866973-4f002833-3d46-4cd7-9c92-1f9949c4b4db.png)
+![image](https://user-images.githubusercontent.com/31904545/128089304-bbe95de3-8fb6-43ad-81dc-e397c726fc8f.png)
+
 
 Or you can use Grafana to view the barometer etc:
 
 ![image](https://user-images.githubusercontent.com/31904545/126867018-0083f65e-70a9-48dd-8357-560c2c76c1f6.png)
+
+**Wiring**
+
+For the BMP280, connect D1 to SCL and D2 to SDA. 
+For the soil moisture sensor, connect A0 to AOUT. NB Only purchase **Capacitive Soil Moisture Sensor** as seen in the diagram below, do not purcahse a two-prong sensor as they rust and stop working very quickly. 
+
+![image](https://user-images.githubusercontent.com/31904545/128090830-8379d853-08c3-46d9-8894-ae3b82259865.png)
