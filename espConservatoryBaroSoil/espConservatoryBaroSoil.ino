@@ -1,12 +1,9 @@
-//SCL to D1
-//SDA to D2
-//Board = NodeMCU 1.0       
-
-#include <espWebServerOTAMqtt.h>
+#include "secrets.h"
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BMP280.h>
-
+#include <espWebServerOTAMqtt.h>
+  
 MyCommon  client("espConservatory1");
 Adafruit_BMP280 bmp;
 
@@ -33,9 +30,9 @@ unsigned long ms_mqtt_lastsent = 0;
 #define mqtt_t_soil1_state            "plants/conservatory1/soil1/state"
   
 
-void onConnectionEstablished() {
-  Serial.println("yo");  
-}
+//void onConnectionEstablished() {
+//  Serial.println("yo");  
+//}
 
 void set_html_index_body() {
   String s = "<table><tr><th style='text-align:left;background-color:green;color:white;'>sensor</th><th style='text-align:left;background-color:green;color:white;'s>value</th></tr>";
@@ -59,12 +56,10 @@ void set_html_index_body() {
 }
 
 void setup() {
-  //client.set_hostname("espConservatory1");
   client.setup();
-
-    if (!bmp.begin((0x76))) {
-    //if (!bmp.begin()) { 
-        Serial.println("Could not find a valid BMP280 sensor, check wiring!");
+  if (!bmp.begin((0x76))) {
+  //if (!bmp.begin()) { 
+      Serial.println("Could not find a valid BMP280 sensor, check wiring!");
       //  while (1);
     }
 }
@@ -97,7 +92,7 @@ void loop() {
         Serial.println(client.publish(mqtt_t_baro_state, String(pressure_ICAO).c_str(), true)) ;      
      }
      if (not isnan(soil_perc)  ) { 
-          Serial.println(client.publish(mqtt_t_soil1_state, String(soil_perc).c_str(), true)) ;      
+        Serial.println(client.publish(mqtt_t_soil1_state, String(soil_perc).c_str(), true)) ;      
      }
      ms_mqtt_lastsent = millis();
   }
