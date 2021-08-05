@@ -7,11 +7,11 @@ It then publishes sensor data to an MQTT broker in a format that Home Assistant 
 The device has a simple webpage that you can view to see the status of the device and its sensors:
 ![image](https://user-images.githubusercontent.com/31904545/128088460-5d00357c-ca6f-425b-b76e-0fba93cebd14.png)
 
-Of course Home Assistant will display the data in a much cleaner format:
+Of course Home Assistant can display the data in a much cleaner format, for example:
 
 ![image](https://user-images.githubusercontent.com/31904545/128089304-bbe95de3-8fb6-43ad-81dc-e397c726fc8f.png)
 
-Or you can use Grafana to view the barometer etc:
+Or you could also use Grafana to view the barometer other sensors:
 
 ![image](https://user-images.githubusercontent.com/31904545/126867018-0083f65e-70a9-48dd-8357-560c2c76c1f6.png)
 
@@ -19,14 +19,14 @@ Or you can use Grafana to view the barometer etc:
 
 ## WiFI / MQTT Configuration
 
-To configre WiFi and MQTT settings, the scetch has 3 options:
+To configre WiFi and MQTT settings, the sketch has 3 options:
 * specify credentials in the included **secrets.h** file
     ```
      #define WIFI_SSID "MORTYLABS" 
      #define WIFI_PASS "guessme"
      ```
     
-* on startup, if the device fails to connect to a WiFi network, it will enter AP mode and broadcast its own SSID. Connect to the AP and navigate to **192.168.4.1** where you can enter credentials on the **setup tab** 
+* alternatively, on startup, if the device fails to connect to a WiFi network, it will enter AP mode and broadcast its own SSID. Connect to the AP and navigate to **192.168.4.1** where you can enter credentials on the **setup tab** 
 
 ![image](https://user-images.githubusercontent.com/31904545/128343205-7b3e722e-ad16-476e-8971-19f513c11999.png)
 * if already connected to your home WiFi network, just click on the same **setup tab** to modify credentials: ![image](https://user-images.githubusercontent.com/31904545/128088647-1e573e9c-77d1-4a0b-9fd5-87567a74625b.png)
