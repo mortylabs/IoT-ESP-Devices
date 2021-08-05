@@ -1,5 +1,5 @@
 ## Overview
-This esp8266 lives indoors, in a conservatory. 
+This esp8266 lives indoors, in a conservatory, with some pot plants.
 
 It measures the air temperature, atmospheric pressure, and soil moisture of an indoor plant.
 It then publishes sensor data to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
