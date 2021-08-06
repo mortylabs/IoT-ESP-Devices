@@ -18,14 +18,7 @@ Or you could also use Grafana to view the barometer other sensors:
 
 ## WiFI / MQTT Configuration
 
-To configre WiFi and MQTT settings, the sketch has 3 options:
-* specify credentials in the included **secrets.h** file
-    ```
-     #define WIFI_SSID "MORTYLABS" 
-     #define WIFI_PASS "guessme"
-     ```
-    
-* alternatively, on startup, if the device fails to connect to a WiFi network, it will enter AP mode and broadcast its own SSID. Connect to the AP and navigate to **192.168.4.1** where you can enter credentials on the **setup tab** 
+On startup, if the device doesn't have any saved config, or fails to connect to a WiFi network, it will enter AP mode and broadcast its own SSID. Connect to the AP and navigate to **192.168.4.1** where you can enter credentials on the **setup tab** 
 
 ![image](https://user-images.githubusercontent.com/31904545/128343205-7b3e722e-ad16-476e-8971-19f513c11999.png)
 * if already connected to your home WiFi network, just click on the same **setup tab** to modify credentials: ![image](https://user-images.githubusercontent.com/31904545/128088647-1e573e9c-77d1-4a0b-9fd5-87567a74625b.png)
