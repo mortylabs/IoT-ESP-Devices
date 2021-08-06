@@ -1,5 +1,5 @@
 ## Overview
-This esp8266 lives indoors and measures the air temperature, atmospheric pressure, and soil moisture of an indoor plant.
+This esp8266 is indoors and powered by a USB power adapter.  It measures the air temperature, atmospheric pressure, and the soil moisture of an indoor plant.
 
 Sensor data is published to an MQTT broker in a format that Home Assistant and its "auto discovery" feature can use. 
 
