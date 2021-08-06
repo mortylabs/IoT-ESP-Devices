@@ -9,8 +9,7 @@ To use the common library, simply copy it into your **arduino/libraries** folder
 
  script | device | mqtt | webpage | sensors | Description |
 | :--- | :--- | :---: | :---: | :--- | :--- |
-| espConservatoryBaroSoil | esp8266 | Y | Y | barometer, temperature, soil moisture | monitors a plant in my conservatory |
+| indoors_soil_baro_temperature | esp8266 | Y | Y | barometer & temperature (BMP280), soil moisture | monitors a plant in my conservatory |
 | more coming soon | - | - | - | - | - |
 
-Much more to come!
-![image](https://user-images.githubusercontent.com/31904545/126867076-63fc6333-f055-4afb-9c79-cab3351eae32.png)
+
