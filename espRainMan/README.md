@@ -6,6 +6,8 @@ It's a humerous figurene of a drunkard hanging onto a lamp post. The lamp once c
 
 The defuct litmus paper was replaced with blue / pink led bulbs, and the whole gadet was mounted onto a cheap £2 wooden pencil box. A screen was mounted into the lid of the pencil box, a motion sensor added to activate the screen when someone enters the room, and the esp and temperature / barometer are of course hidden away within the box. 
 
-![image](https://user-images.githubusercontent.com/31904545/150982777-2b191bfc-9905-4a02-90e8-ecfbe4d59a51.png)
+![image](https://user-images.githubusercontent.com/31904545/150983076-77588144-af75-4c5c-a97d-ad53b6ea6e83.png)
+
+
 
 
