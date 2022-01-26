@@ -8,6 +8,7 @@ The defuct litmus paper was replaced with blue / pink led bulbs, and the whole g
 
 ![image](https://user-images.githubusercontent.com/31904545/150983205-7499dedd-7216-423d-82da-c9b90381ee18.png)
 
+![image](https://user-images.githubusercontent.com/31904545/151181954-4964c2b9-37b3-4220-8ef0-231306940c99.png)
 
 Source code has only 2 lines which need to be configured:
 ```
