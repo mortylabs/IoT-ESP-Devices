@@ -6,10 +6,12 @@ It's a humerous figurene of a drunkard hanging onto a lamp post. The lamp once c
 
 The defuct litmus paper was replaced with blue / pink led bulbs, and the whole gadet was mounted onto a cheap £2 wooden pencil box. A screen was mounted into the lid of the pencil box, a motion sensor added to activate the screen when someone enters the room, and the esp and temperature / barometer are of course hidden away within the box. 
 
+# Before
 ![image](https://user-images.githubusercontent.com/31904545/150983205-7499dedd-7216-423d-82da-c9b90381ee18.png)
-
+# After
 ![image](https://user-images.githubusercontent.com/31904545/151181954-4964c2b9-37b3-4220-8ef0-231306940c99.png)
 
+# Setup
 Source code has only 2 lines which need to be configured:
 ```
 MyCommon  client("espRainMan", "WIFI_SSID_HERE", "WIFI_PASSWORD_HERE", "MQTT_BROKER_IP_HERE", "MQTT_PORT_HERE", "mqtt_user", "MQTT_PASSWORD_HERE");
