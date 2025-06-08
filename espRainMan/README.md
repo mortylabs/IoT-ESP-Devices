@@ -1,14 +1,12 @@
 # Rain Man
 
-An old 1960s rain indicator belonging to my grandparents has a new life!
-It's a comical figurene of a drunkard hanging onto a lamp post. The lamp once contained litmus paper that changed from blue to pink if a storm was approaching.
+An old 1960s rain indicator from my grandparents has found a new lease on life! Originally, it featured a comical figurine of a drunkard clinging to a lamppost, with a clever touch ... the lamp housed litmus paper that changed from blue to pink to signal approaching storms.
 
+The litmus paper is long gone, but now the figurine lives on with a modern twist. Hidden inside is an ESP8266 D1 Mini, paired with a barometric pressure and temperature sensor, a motion-activated screen, and RGB LED indicators. It subtly informs you of changing weather conditions, publishing data via MQTT or logging it directly to InfluxDB for full smart home integration i.e. Home Assistant. 
 
-The litmus paper has long perished, but in this new life, the interior has been stuffed with a esp8266 D1, barmoetric pressure and temperature sensor with a motion-activated screen and RGB LED feedback to subtly inform you of changing weather conditions, with all data published on a MQTT topic of your choice or written to InfluxDB. 
+The defunct litmus lamp now glows with pink or blue LEDs, depending on the atmospheric pressure trend. The entire setup is cleverly mounted onto a £2 wooden pencil box: the screen is embedded in the lid, a PIR sensor wakes the display when someone enters the room, and all the electronics are neatly tucked away inside.
 
-**espRainMan** is a sleek, WiFi-enabled weather monitoring and ambient notification device, which publishes data to InfluxDB and MQTT, and integrates into Home Assistant. 
-
-The defuct litmus paper was replaced with blue / pink led bulbs, and the whole gadet was mounted onto a cheap £2 wooden pencil box. A screen was mounted into the lid of the pencil box, a motion sensor added to activate the screen when someone enters the room, and the esp and temperature / barometer are of course hidden away within the box. 
+**espRainMan** transforms nostalgic whimsy into a sleek, WiFi-enabled ambient weather station—perfectly at home in both vintage decor and modern smart homes.
 
 ![image](https://user-images.githubusercontent.com/31904545/151181954-4964c2b9-37b3-4220-8ef0-231306940c99.png)
 
